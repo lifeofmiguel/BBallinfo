@@ -10,5 +10,6 @@ class API
         basketball_data = bballinfo_hash["data"]
         basketball_data.each do |team|
            Bballinfo.new(team)
+        end
      end
 end

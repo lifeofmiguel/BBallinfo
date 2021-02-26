@@ -2,18 +2,17 @@ class Bballinfo
     @@all = []
 #attr acceossr
 #self.send
-    def initialize(bballinfo_hash)
-        bballinfo_hash.each do |key, value|
-            self.send("#{key}=", value)
-        end 
+def initialize(data)
+    data.each do |key, value| 
+        self.class.attr_accessor(key)
+        self.send("#{key}=", value)
+    end 
         @@all << self
     end
 
     def self.all
         @@all
     end
-
-
 
 end
 
