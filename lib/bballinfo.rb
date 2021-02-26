@@ -13,6 +13,12 @@ def initialize(data)
     def self.all
         @@all
     end
+    
+    def self.find_by_name(team_name)
+        self.all.find do |team_object|
+            team_object.full_name == team_name
+        end
+    end
 
 end
 

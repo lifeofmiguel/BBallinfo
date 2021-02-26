@@ -1,7 +1,7 @@
 class CLI
     def run
         greeting
-        display
+        select
     end
 
     def greeting
@@ -11,8 +11,14 @@ class CLI
 
     def display
         Bballinfo.all.collect do |team|
-            puts "#{team.full_name}"
+            team.full_name
         end
+    end
+    
+    def select
+        prompt = TTY::Prompt.new
+        selection = prompt.select("Pick your favorite team!", display)
+        team_object = Bballinfo.find_by_name()
     end
 
 end
