@@ -23,7 +23,24 @@ class CLI
     end
 
     def team_info(object)
+        puts "#{object.abbreviation}"
         puts "#{object.city}"
+        puts "#{object.conference}"
+        puts "#{object.division}"
+        puts "#{object.full_name}"
+        puts "#{object.name}"
+        leave
     end
+
+    def leave
+        puts "Continue? (y/n)"
+        input = gets.chomp
+        if input == "y"
+        select
+        elsif input == "n"
+        exit
+        end
+    end
+
 
 end
