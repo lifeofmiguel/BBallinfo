@@ -5,7 +5,7 @@ class CLI
     end
 
     def greeting
-        puts "Welcome to Bballinfo"
+        puts "**********  Welcome to BBallinfo  **********"
         API.new.get_basketball_data
     end
 
@@ -17,7 +17,7 @@ class CLI
     
     def select
         prompt = TTY::Prompt.new
-        selection = prompt.select("Pick your favorite team!", display)
+        selection = prompt.select("********  Pick your favorite team!  ********", display)
         team_object = Bballinfo.find_by_name(selection)
         team_info(team_object)
     end
