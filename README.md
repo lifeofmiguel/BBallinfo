@@ -4,7 +4,7 @@ BBallinfo shows you a list of information of your favorite NBA team including ab
 
 ## Installation
 Fork and clone this repo.
-Run bunle install
+Run bundle install
 Run ruby bin/run
 
 ## Contributing

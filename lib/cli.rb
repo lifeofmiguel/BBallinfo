@@ -23,17 +23,17 @@ class CLI
     end
 
     def team_info(object)
-        puts "#{object.abbreviation}"
-        puts "#{object.city}"
-        puts "#{object.conference}"
-        puts "#{object.division}"
-        puts "#{object.full_name}"
-        puts "#{object.name}"
+        puts "Abbreviation: #{object.abbreviation}"
+        puts "City: #{object.city}"
+        puts "Conference: #{object.conference}"
+        puts "Division: #{object.division}"
+        puts "Full Name: #{object.full_name}"
+        puts "Name: #{object.name}"
         leave
     end
 
     def leave
-        puts "Continue? (y/n)"
+        puts "********  Back to main menu? (y/n)  ********"
         input = gets.chomp
         if input == "y"
         select
