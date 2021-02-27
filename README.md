@@ -1,4 +1,4 @@
 # BBallinfo
 
-database of basketball teams
+BBallinfo shows you a list of information of your favorite NBA team th
 

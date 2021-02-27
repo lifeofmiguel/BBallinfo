@@ -18,7 +18,12 @@ class CLI
     def select
         prompt = TTY::Prompt.new
         selection = prompt.select("Pick your favorite team!", display)
-        team_object = Bballinfo.find_by_name(team_object)
+        team_object = Bballinfo.find_by_name(selection)
+        team_info(team_object)
+    end
+
+    def team_info(object)
+        puts "#{object.city}"
     end
 
 end
