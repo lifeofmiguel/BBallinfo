@@ -1,2 +1,4 @@
-# basketball-db
-database of basketball  players, teams, and game results
+# BBallinfo
+
+database of basketball teams
+
