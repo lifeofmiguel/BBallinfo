@@ -1,7 +1,7 @@
 class Bballinfo
+    
     @@all = []
-#attr acceossr
-#self.send
+
 def initialize(data)
     data.each do |key, value| 
         self.class.attr_accessor(key)
@@ -19,7 +19,4 @@ def initialize(data)
             team_object.full_name == team_name
         end
     end
-
 end
-
-#module wrapper 
