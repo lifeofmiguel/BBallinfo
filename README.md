@@ -8,7 +8,7 @@ BBallinfo shows you a list of information of your favorite NBA team including ab
 * Run bin/run
 
 ## Contributing
-Bug reports and pull requests are welcome on GitHub at https://github.com/lifeofmiguel/basketball-db.
+Bug reports and pull requests are welcome on GitHub at https://github.com/lifeofmiguel/BBallinfo.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
