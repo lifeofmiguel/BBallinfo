@@ -1,5 +1,4 @@
 class API
-    #where data will be grabbed
 
     def initialize
         @url = "https://www.balldontlie.io/api/v1/teams"

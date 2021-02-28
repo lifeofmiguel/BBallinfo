@@ -23,6 +23,7 @@ class CLI
     end
 
     def team_info(object)
+        puts "******  Here is all you need to know  ******"
         puts "Abbreviation: #{object.abbreviation}"
         puts "City: #{object.city}"
         puts "Conference: #{object.conference}"
