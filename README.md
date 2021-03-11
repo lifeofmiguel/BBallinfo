@@ -1,6 +1,6 @@
 # BBallinfo
 
-BBallinfo shows you a list of information of your favorite NBA team including abbreviation, city, conference, division, full name, and name.
+BBallinfo shows you a list of information of your favorite NBA team including abbreviation, city, conference, division, full name, and name. BBallinfo will now show you NBA players including their first and last name also their positions.
 
 ## Installation
 * Fork and clone this repo.

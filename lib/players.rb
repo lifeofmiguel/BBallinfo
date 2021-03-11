@@ -1,5 +1,5 @@
-class Bballinfo
-    
+class Player
+
     @@all = []
 
 def initialize(data)
@@ -13,11 +13,10 @@ def initialize(data)
     def self.all 
         @@all
     end
-    
-    def self.find_by_name(team_name)
-        self.all.find do |team_object|
-            team_object.full_name == team_name
+
+    def self.find_by_name(input)
+        self.all.find do |player_object|
+            player_object.first_name == input
         end
     end
-
 end
